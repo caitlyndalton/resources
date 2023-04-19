@@ -29,6 +29,8 @@ class Manager < Employee
     @employees = input_options_hash[:employees]
   end
 
+  ### Yes, this is a touch grass joke. I did indeed type in my terminal 'touch grass.rb' ###
+  
   def send_report
     puts "Sending email..."
     # use email sending library
