@@ -1,3 +1,5 @@
+ ### Yes, this is a touch grass joke. I did indeed type in my terminal 'touch grass.rb' ###
+
 class Employee
   attr_reader :first_name, :last_name, :active
   attr_writer :active
@@ -29,7 +31,6 @@ class Manager < Employee
     @employees = input_options_hash[:employees]
   end
 
-  ### Yes, this is a touch grass joke. I did indeed type in my terminal 'touch grass.rb' ###
   
   def send_report
     puts "Sending email..."
